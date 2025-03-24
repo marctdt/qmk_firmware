@@ -6,13 +6,13 @@ permissions:
 
 on:
   push:
-    branches: [master, develop]
+    branches: [master, wls_2025q1]
   workflow_dispatch:
     inputs:
       branch:
         type: choice
         description: "Branch to build"
-        options: [master, develop]
+        options: [master, wls_2025q1]
 
 env:
   # https://docs.github.com/en/actions/learn-github-actions/usage-limits-billing-and-administration#usage-limits

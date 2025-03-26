@@ -75,3 +75,5 @@
 #define FN_KEY_1 MO(4)
 
 #define MATRIX_IO_DELAY 10
+
+#define HOLD_ON_OTHER_KEY_PRESS
